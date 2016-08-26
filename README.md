@@ -7,4 +7,4 @@ ftp://africagrids.net/Other/Test/Nigeria/
 The RModis-copy.R is authored by  
  Guido Cervone (cervone@polygonsu.edu) and Yanni Cao (yvc5268@polygonsu.edu), Pennsylvania State University
 
-Revised scripts that were tweaked by Mengqi Wang, Data Science, Columbia University and run faster will be added shortly.
+Revised scripts that were tweaked by Mengqi Wang, Data Science, Columbia University and run faster will be added shortly to the repository.
