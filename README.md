@@ -5,6 +5,6 @@ The outputs for 2014 are located on the AfSIS FTP Site
 ftp://africagrids.net/Other/Test/Nigeria/
 
 The RModis-copy.R is authored by  
- Guido Cervone (cervone@polygonsu.edu) and Yanni Cao (yvc5268@polygonsu.edu), Pennsylvania State University
+ Guido Cervone (cervone@polygonsu.edu) and Yanni Cao (yvc5268@polygonsu.edu), The Pennsylvania State University
 
 Revised scripts that were tweaked by Mengqi Wang, Data Science, Columbia University and run faster will be added shortly to the repository.
