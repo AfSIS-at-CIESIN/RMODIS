@@ -46,7 +46,7 @@ ver        = "005"
 tmp.dir    = "./"
 MRTpath    = "/usr/local/mrt/bin"
 username   = "yzhan"
-pwd        = "1993912Zyn"
+pwd        = "199xxxxtttt3912Zyn"
 
 #create a folder of your chossing year
 dir.create(paste(year,"_reproject",sep=""),showWarnings=F)
