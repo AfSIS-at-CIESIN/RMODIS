@@ -15,7 +15,7 @@ require(RCurl)
 require(rgdal)
 
 #read the script with all the functions
-source("RModisRevised_together.R")
+source("RModis_Function_Revised.R")
 
 # Note: You must install the MODIS Reprojection tools
 #       This is where it is on my machine.  It will probably
