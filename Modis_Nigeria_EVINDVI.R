@@ -15,15 +15,14 @@ require(RCurl)
 require(rgdal)
 
 #read the script with all the functions
-source("RModis-copy.R")
+source("RModis_Function.R")
 
 
 # Note: You must install the MODIS Reprojection tools
 #       This is where it is on my machine.  It will probably
 #       be different on yours
-#
-# Sys.setenv(MRT_HOME="/usr/local/mrt/", 
-#            MRT_DATA_DIR="/usr/local/mrt/data")
+Sys.setenv(MRT_HOME="/usr/local/mrt/", 
+MRT_DATA_DIR="/usr/local/mrt/data")
 
 
 
@@ -58,11 +57,11 @@ for (i in 01:12) {
 
 
 ############ Step 2. reproject to Lambert ###########
-#create a new folder "2014_reproject"
-dir.create("2014_reproject", showWarnings=F)
+#create a new "_reproject" folder for your chosing year
+dir.create(paste(year,"_reproject",sep=""), showWarnings=F)
 
-#list all the files of 2014 as inputs
-ip<- list.files(pattern = "MOD13Q1_2014-.*.tif",full.names = T) 
+#list all the files of your chosing year as inputs
+ip<- list.files(pattern = paste("MOD13Q1_",year,"-.*.tif",sep=""),full.names = T) 
 ip
 
 #remove '.tif' and './' in the file name
@@ -70,7 +69,7 @@ ip2<-strsplit(ip,"\\.tif")
 ip2<-substring(ip2,3,nchar(ip2))
 
 #create a new name as output
-op<-paste("./2014_reproject/",ip2,"_laea.tif",sep="")
+op<-paste("./",year,"_reproject/",ip2,"_laea.tif",sep="")
 op
 
 #bulk reproject
@@ -88,8 +87,8 @@ offset  = 0
 gain    = 0.0001
 valid   = c(-2000,10000)
 
-#list the files
-folder = "/data3/rstudio/EVINDVI/2014_reproject"
+#list the files in the "_reproject" folder
+folder = paste("/data3/rstudio/EVINDVI/",year,"_reproject",sep="")
 files_name <- list.files(folder,pattern = "*.tif",full.names = T) 
 files_name
 
