@@ -4,7 +4,7 @@ ModisEVINDVI-copy.R script was written by Yanni Zhan, CIESIN, Columbia Universit
 The outputs for 2014 are located on the AfSIS FTP Site 
 ftp://africagrids.net/Other/Test/Nigeria/
 
-RModisRevised_NDVI&EVI.R and Modis_Quarterly_NDVI_Revised.R are scripts created to update the quarterly MODIS 250m /MOD13Q1 datasets as an alternative to the original Bash scripts. 
+RModisRevised_NDVI&EVI.R and Modis_Quarterly_NDVI.R are scripts created to update the quarterly MODIS 250m /MOD13Q1 datasets as an alternative to the original Bash scripts. 
 
 The quarterly updates are located on AfSIS FTP Site
 ftp://africagrids.net/250m/MOD13Q1/
