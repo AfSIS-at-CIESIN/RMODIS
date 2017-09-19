@@ -11,5 +11,4 @@ ftp://africagrids.net/Other/Test/Nigeria/
 You can simply change the parameters from line 33 to 37 to download other products.
 
 ### RModis_Function.R 
-This script is authored by  
- Guido Cervone (cervone@polygonsu.edu) and Yanni Cao (yvc5268@polygonsu.edu), The Pennsylvania State University
+This script is authored by Guido Cervone (cervone@polygonsu.edu) and Yanni Cao (yvc5268@polygonsu.edu), The Pennsylvania State University
