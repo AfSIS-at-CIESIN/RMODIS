@@ -38,8 +38,8 @@ for (i in 01:12) {
   ver        = "005"
   tmp.dir    = "./"
   MRTpath    = "/usr/local/mrt/bin"
-  username   = "yzhan"
-  pwd        = "199xxxxx3912Zyn"
+  username   = "abc" #replace by your own username & password
+  pwd        = "123456"
   
   #download
   files = modis.download( product=product, 
