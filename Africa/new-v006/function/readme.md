@@ -1,0 +1,1 @@
+The RModis_Function_Revised.R script was originally authored by Guido Cervone (cervone@polygonsu.edu) and Yanni Cao (yvc5268@polygonsu.edu), The Pennsylvania State University. It was further tweaked by Mengqi Wang, Data Science, Columbia University, which enables multi-threading to run downloading procedure faster.
