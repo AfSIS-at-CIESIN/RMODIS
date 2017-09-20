@@ -6,9 +6,9 @@
 (It is set to run EVI long term monthly average from 2000 to 2017)
 
 * Basic workflow
-     * Download & mosaic (sourcing the function Africa_download_mosaic_oneBand.R script)
-     * Calculate long term monthly average (sourcing the function Africa_mon_avg_oneBand.R script)
-     * Reproject to laea & clip (sourcing the function Africa_laea_clip_oneBand.R script)
+     * Download & mosaic (sourcing the function **Africa_download_mosaic_oneBand.R** script)
+     * Calculate long term monthly average (sourcing the function **Africa_mon_avg_oneBand.R** script)
+     * Reproject to laea & clip (sourcing the function **Africa_laea_clip_oneBand.R** script)
 
 * Parameters 
      * Download & mosaic:
@@ -33,9 +33,9 @@
 (It is set to run EVI long term average from 2000 to 2017)
 
 * Basic workflow
-     * Download & mosaic (sourcing the function Africa_download_mosaic_oneBand.R script)
-     * Calculate long term average (sourcing the function Africa_LTA_oneBand.R script)
-     * Reproject to laea & clip (sourcing the function Africa_laea_clip_oneBand.R script)
+     * Download & mosaic (sourcing the function **Africa_download_mosaic_oneBand.R** script)
+     * Calculate long term average (sourcing the function **Africa_LTA_oneBand.R** script)
+     * Reproject to laea & clip (sourcing the function **Africa_laea_clip_oneBand.R** script)
 
 * Parameters 
      * Download & mosaic:
@@ -59,4 +59,4 @@
 
 ### /Function
 
-* This folder contains all the function scripts needed in teh Modis_Quarterly_mon_avg.R and Modis_Quarterly_LTA.R script.
+* This folder contains all the function scripts needed in the Modis_Quarterly_mon_avg.R and Modis_Quarterly_LTA.R script.
