@@ -9,7 +9,7 @@ This directory contains the R scripts used to develop the MODIS Vegetation Indic
 
 ### /Nigeria
 
-* This folder contains all the R scripts needed to download, mosaic, reproject and clip /250m/MOD13Q1 16 day timeseries for Nigeria.
+* This folder contains all the R scripts needed to download, mosaic, reproject and clip /250m/MOD13Q1 16 day data for Nigeria.
 
 
 
