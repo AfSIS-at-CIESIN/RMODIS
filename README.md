@@ -4,7 +4,7 @@
 
 ### /Africa
 
-* This folder contains all the R scripts needed to download, mosaic, calculate long term average, reproject and clip /250m/MOD13Q1 (including older 005 version and the new 006 version) 16 day timeseries for Africa.
+* This folder contains all the R scripts needed to download, mosaic, calculate long term average, reproject and clip /250m/MOD13Q1 (including the olde 005 version and the new 006 version) 16 day timeseries for Africa.
 
 ### /Nigeria
 
